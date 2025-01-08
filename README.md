@@ -33,7 +33,7 @@ Welcome to **Pokedex Manager 3000**, a thrilling console-based system for:
    Or pray to the compiler gods that everything runs.
 
 2. **Run**  
-./ex6
+valgrind ./ex6 < input.txt
 
 Then follow the prompts. 
 - Enter owners’ names,
