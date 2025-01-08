@@ -188,6 +188,9 @@ PokemonNode *removePokemonByID(PokemonNode *root, int id);
    4) Generic BST Traversals (Function Pointers)
    ------------------------------------------------------------ */
 
+// Please notice, it's not really generic, it's just a demonstration of function pointers.
+// so don't be confused by the name, but please remember that you must use it.
+
 typedef void (*VisitNodeFunc)(PokemonNode *);
 
 /**
