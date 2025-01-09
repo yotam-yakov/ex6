@@ -15,14 +15,6 @@
 //   const PokemonData pokedex[];
 // ================================================
 
-// For alphabetical display, we collect all nodes in an array, then qsort by name
-typedef struct
-{
-    PokemonNode **nodes;
-    int size;
-    int capacity;
-} NodeArray;
-
 // --------------------------------------------------------------
 // 1) Safe integer reading
 // --------------------------------------------------------------
