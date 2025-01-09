@@ -1,6 +1,10 @@
 #ifndef EX6_H
 #define EX6_H
 
+#include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 
 typedef enum
